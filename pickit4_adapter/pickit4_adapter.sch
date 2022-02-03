@@ -64,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -258,6 +259,26 @@
 <text x="1.27" y="3.175" size="1.27" layer="94">Contact:</text>
 <text x="2.54" y="0.635" size="1.27" layer="94">&gt;CONTACT</text>
 </symbol>
+<symbol name="REVISION_TABLE" urn="urn:adsk.eagle:symbol:10618470/3" library_version="8">
+<wire x1="0" y1="0" x2="139.7" y2="0" width="0.2032" layer="94"/>
+<wire x1="20.32" y1="7.62" x2="20.32" y2="-165.1" width="0.2032" layer="94"/>
+<wire x1="35.56" y1="7.62" x2="35.56" y2="-165.1" width="0.2032" layer="94"/>
+<wire x1="0" y1="7.62" x2="50.8" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="50.8" y1="7.62" x2="139.7" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="139.7" y1="-165.1" x2="50.8" y2="-165.1" width="0.4064" layer="94"/>
+<wire x1="50.8" y1="-165.1" x2="0" y2="-165.1" width="0.4064" layer="94"/>
+<wire x1="0" y1="-165.1" x2="0" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="139.7" y1="-165.1" x2="139.7" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="50.8" y1="7.62" x2="50.8" y2="-165.1" width="0.2032" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="0" y1="15.24" x2="139.7" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="139.7" y1="15.24" x2="139.7" y2="7.62" width="0.4064" layer="94"/>
+<text x="5.08" y="2.54" size="2.54" layer="94">Date</text>
+<text x="25.4" y="2.54" size="2.54" layer="94">By</text>
+<text x="55.88" y="2.54" size="2.54" layer="94">Description</text>
+<text x="40.64" y="2.54" size="2.54" layer="94">Rev.</text>
+<text x="2.54" y="10.16" size="3.81" layer="94">Revision History</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME_A_L_VER2" urn="urn:adsk.eagle:component:10618475/1" prefix="FRAME" uservalue="yes" library_version="8">
@@ -265,6 +286,18 @@
 <gates>
 <gate name="G$1" symbol="FRAME_A_L_VER2" x="0" y="0"/>
 <gate name="G$2" symbol="DOCFIELD_VER2" x="158.75" y="3.81" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION_TABLE" urn="urn:adsk.eagle:component:10618474/3" prefix="TBL" library_version="8">
+<gates>
+<gate name="G$1" symbol="REVISION_TABLE" x="0" y="-12.7"/>
 </gates>
 <devices>
 <device name="">
@@ -348,13 +381,15 @@
 </packages>
 <packages3d>
 <package3d name="SOP65P640X120-14N" urn="urn:adsk.eagle:package:31336517/2" type="model" library_version="5">
-<description>&lt;b&gt;(ST)14-Lead(TSSOP)&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;(ST)14-Lead(TSSOP)&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="SOP65P640X120-14N"/>
 </packageinstances>
 </package3d>
 <package3d name="QFN65P400X400X100-17N" urn="urn:adsk.eagle:package:31336516/2" type="model" library_version="5">
-<description>&lt;b&gt;MCP2221A-I/ML-1&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;MCP2221A-I/ML-1&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="QFN65P400X400X100-17N"/>
 </packageinstances>
@@ -921,13 +956,15 @@ Source: &lt;a href="https://docs.rs-online.com/0ef6/0900766b816634b7.pdf"&gt; Da
 </packageinstances>
 </package3d>
 <package3d name="ZX62R-B-5P(30)" urn="urn:adsk.eagle:package:31649326/2" type="model" library_version="7">
-<description>&lt;b&gt;ZX62R-B-5P(30)&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;ZX62R-B-5P(30)&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="ZX62R-B-5P(30)"/>
 </packageinstances>
 </package3d>
 <package3d name="ZX62M-B-5P(30" urn="urn:adsk.eagle:package:24672388/2" type="model" library_version="7">
-<description>&lt;b&gt;ZX62M-B-5P-3&lt;/b&gt;&lt;br&gt;</description>
+<description>&lt;b&gt;ZX62M-B-5P-3&lt;/b&gt;&lt;br&gt;
+</description>
 <packageinstances>
 <packageinstance name="ZX62M-B-5P(30"/>
 </packageinstances>
@@ -1808,38 +1845,111 @@ chip</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="HatchPoint">
+<packages>
+<package name="FIDUCIAL-TOP-BOTTOM">
+<circle x="0" y="0" radius="1.27" width="0.3048" layer="1"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="1"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.3048" layer="1"/>
+<hole x="0" y="0" drill="3.175"/>
+<circle x="0" y="0" radius="1.27" width="0.3048" layer="16"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="16"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.3048" layer="16"/>
+</package>
+<package name="FIDUCIAL_1MM" urn="urn:adsk.eagle:footprint:6239986/1">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
+<package name="FIDUCIAL_1MM_TOP_BOTTOM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<smd name="2" x="0" y="0" dx="1" dy="1" layer="16" roundness="100" rot="R180" stop="no" cream="no"/>
+<polygon width="0.127" layer="30">
+<vertex x="1" y="0" curve="-90"/>
+<vertex x="0" y="-1" curve="-90"/>
+<vertex x="-1" y="0" curve="-90"/>
+<vertex x="0" y="1" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="1" y="0" curve="-90"/>
+<vertex x="0" y="-1" curve="-90"/>
+<vertex x="-1" y="0" curve="-90"/>
+<vertex x="0" y="1" curve="-90"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FID">
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL-TOP-BOTTOM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1MM_TOP" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1MM_TOP_BOTTOM" package="FIDUCIAL_1MM_TOP_BOTTOM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
+<attribute name="APPROVED" value="MK"/>
 <attribute name="CONTACT" value="rluttrell@hatchpoint.com (901)605-3388"/>
+<attribute name="CREATED_DATE_TIME" value="01/30/2022 3:31 PM"/>
 <attribute name="DESIGNED" value="RSL"/>
 <attribute name="FILENAME" value="PICKIT4_Programming_Board.sch"/>
 <attribute name="REV" value="1.0"/>
-<attribute name="SCHEMATIC_TITLE" value="PICkit4 Programming Board"/>
+<attribute name="SCHEMATIC_TITLE" value="PICkit4 Adapter Board"/>
 <attribute name="SIZE" value="LET"/>
 </attributes>
 <variantdefs>
+<variantdef name="A"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="HatchPoint-Frames" library_urn="urn:adsk.eagle:library:5099271" deviceset="FRAME_A_L_VER2" device="">
-<attribute name="CONTACT" value=""/>
-<attribute name="DESIGNED" value=""/>
-<attribute name="FILENAME" value=""/>
-<attribute name="REV" value=""/>
-<attribute name="SCHEMATIC_TITLE" value=""/>
-<attribute name="SIZE" value=""/>
-</part>
-<part name="FRAME2" library="HatchPoint-Frames" library_urn="urn:adsk.eagle:library:5099271" deviceset="FRAME_A_L_VER2" device="">
-<attribute name="CONTACT" value=""/>
-<attribute name="DESIGNED" value=""/>
-<attribute name="FILENAME" value=""/>
-<attribute name="REV" value=""/>
-<attribute name="SCHEMATIC_TITLE" value=""/>
-<attribute name="SIZE" value=""/>
-</part>
 <part name="U2" library="HatchPoint-MicrochipTechnology" library_urn="urn:adsk.eagle:library:24060010" deviceset="MCP2221AT-*" device="I/ST" package3d_urn="urn:adsk.eagle:package:31336517/2"/>
 <part name="FL1" library="HatchPoint-ST" library_urn="urn:adsk.eagle:library:23797591" deviceset="USBDF0*W5" device="" package3d_urn="urn:adsk.eagle:package:27499786/2" technology="1"/>
 <part name="LED1" library="HatchPoint-Wurtz" library_urn="urn:adsk.eagle:library:24425210" deviceset="156125" device="57000" package3d_urn="urn:adsk.eagle:package:27409249/3" technology="GS"/>
@@ -1864,25 +1974,50 @@ chip</description>
 <part name="V3" library="HatchPoint-Supplies" library_urn="urn:adsk.eagle:library:8624175" deviceset="+3V3" device=""/>
 <part name="V4" library="HatchPoint-Supplies" library_urn="urn:adsk.eagle:library:8624175" deviceset="+3V3" device=""/>
 <part name="GND5" library="HatchPoint-Supplies" library_urn="urn:adsk.eagle:library:8624175" deviceset="DGND" device=""/>
+<part name="FRAME1" library="HatchPoint-Frames" library_urn="urn:adsk.eagle:library:5099271" deviceset="FRAME_A_L_VER2" device="">
+<attribute name="APPROVED" value=""/>
+<attribute name="CREATED_DATE_TIME" value=""/>
+</part>
+<part name="FRAME2" library="HatchPoint-Frames" library_urn="urn:adsk.eagle:library:5099271" deviceset="FRAME_A_L_VER2" device=""/>
+<part name="FID1" library="HatchPoint" deviceset="FIDUCIAL" device="_1MM_TOP_BOTTOM">
+<variant name="A" populate="no"/>
+</part>
+<part name="FID2" library="HatchPoint" deviceset="FIDUCIAL" device="_1MM_TOP_BOTTOM">
+<variant name="A" populate="no"/>
+</part>
+<part name="FID3" library="HatchPoint" deviceset="FIDUCIAL" device="_1MM_TOP_BOTTOM">
+<variant name="A" populate="no"/>
+</part>
+<part name="TBL1" library="HatchPoint-Frames" library_urn="urn:adsk.eagle:library:5099271" deviceset="REVISION_TABLE" device=""/>
 </parts>
 <sheets>
 <sheet>
-<description>Interface</description>
+<description>Revision Table</description>
 <plain>
+<text x="10.16" y="187.96" size="2.54" layer="94">01/30/2022</text>
+<text x="30.48" y="187.96" size="2.54" layer="94">RSL</text>
+<text x="45.72" y="187.96" size="2.54" layer="94">R1,0</text>
+<text x="60.96" y="187.96" size="2.54" layer="94">Document creation.</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="158.75" y="3.81" smashed="yes">
+<attribute name="CREATED_DATE_TIME" x="201.93" y="4.445" size="1.27" layer="94"/>
 <attribute name="SHEET" x="186.69" y="11.43" size="1.905" layer="94"/>
-<attribute name="SHEET_HEADLINE" x="201.93" y="26.67" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="240.03" y="4.445" size="1.27" layer="94"/>
 <attribute name="SCHEMATIC_TITLE" x="201.93" y="39.37" size="3.81" layer="94"/>
+<attribute name="REV" x="171.45" y="11.43" size="1.905" layer="94"/>
+<attribute name="APPROVED" x="181.61" y="21.59" size="1.905" layer="94"/>
+<attribute name="SHEET_HEADLINE" x="201.93" y="26.67" size="2.54" layer="94"/>
+<attribute name="FILENAME" x="201.93" y="10.16" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="240.03" y="4.445" size="1.27" layer="94"/>
 <attribute name="DESIGNED" x="161.29" y="21.59" size="1.905" layer="94"/>
 <attribute name="SIZE" x="161.29" y="11.43" size="1.905" layer="94"/>
 <attribute name="CONTACT" x="161.29" y="4.445" size="1.27" layer="94"/>
-<attribute name="REV" x="171.45" y="11.43" size="1.905" layer="94"/>
-<attribute name="FILENAME" x="201.93" y="10.16" size="2.54" layer="94"/>
 </instance>
+<instance part="FID1" gate="G$1" x="172.72" y="76.2" smashed="yes"/>
+<instance part="FID2" gate="G$1" x="185.42" y="76.2" smashed="yes"/>
+<instance part="FID3" gate="G$1" x="198.12" y="76.2" smashed="yes"/>
+<instance part="TBL1" gate="G$1" x="7.62" y="193.04" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1890,22 +2025,10 @@ chip</description>
 </nets>
 </sheet>
 <sheet>
-<description>Revision Table</description>
+<description>Adapter Board</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="158.75" y="3.81" smashed="yes">
-<attribute name="SHEET" x="186.69" y="11.43" size="1.905" layer="94"/>
-<attribute name="SHEET_HEADLINE" x="201.93" y="26.67" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="240.03" y="4.445" size="1.27" layer="94"/>
-<attribute name="SCHEMATIC_TITLE" x="201.93" y="39.37" size="3.81" layer="94"/>
-<attribute name="DESIGNED" x="161.29" y="21.59" size="1.905" layer="94"/>
-<attribute name="SIZE" x="161.29" y="11.43" size="1.905" layer="94"/>
-<attribute name="CONTACT" x="161.29" y="4.445" size="1.27" layer="94"/>
-<attribute name="REV" x="171.45" y="11.43" size="1.905" layer="94"/>
-<attribute name="FILENAME" x="201.93" y="10.16" size="2.54" layer="94"/>
-</instance>
 <instance part="U2" gate="G$1" x="121.92" y="114.3" smashed="yes">
 <attribute name="NAME" x="127" y="121.92" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127" y="119.38" size="1.778" layer="96"/>
@@ -2012,6 +2135,20 @@ chip</description>
 <attribute name="VALUE" x="147.32" y="61.595" size="1.778" layer="96" ratio="16" align="bottom-center"/>
 </instance>
 <instance part="GND5" gate="G$1" x="71.12" y="170.18" smashed="yes"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="158.75" y="3.81" smashed="yes">
+<attribute name="SHEET" x="186.69" y="11.43" size="1.905" layer="94"/>
+<attribute name="SCHEMATIC_TITLE" x="201.93" y="39.37" size="3.81" layer="94"/>
+<attribute name="REV" x="171.45" y="11.43" size="1.905" layer="94"/>
+<attribute name="SHEET_HEADLINE" x="201.93" y="26.67" size="2.54" layer="94"/>
+<attribute name="FILENAME" x="201.93" y="10.16" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="240.03" y="4.445" size="1.27" layer="94"/>
+<attribute name="DESIGNED" x="161.29" y="21.59" size="1.905" layer="94"/>
+<attribute name="SIZE" x="161.29" y="11.43" size="1.905" layer="94"/>
+<attribute name="CONTACT" x="161.29" y="4.445" size="1.27" layer="94"/>
+<attribute name="APPROVED" x="181.61" y="21.59" size="1.905" layer="94"/>
+<attribute name="CREATED_DATE_TIME" x="201.93" y="4.445" size="1.27" layer="94"/>
+</instance>
 </instances>
 <busses>
 </busses>

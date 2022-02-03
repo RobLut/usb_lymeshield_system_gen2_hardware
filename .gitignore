@@ -1,0 +1,5 @@
+lymeshield_system/*.b#*
+lymeshield_system/*.s#*
+
+pickit4_adapter/*.b#*
+pickit4_adapter/*.s#*

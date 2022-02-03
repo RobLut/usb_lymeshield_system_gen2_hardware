@@ -337,9 +337,9 @@ UsedLibrary="/Users/shane_hatchpoint/HatchPoint Dropbox/Shane Luttrell/EagleCAD/
 
 [Win_1]
 Type="Board Editor"
-Number=1
-File="lyme_shield_system_gen2.brd"
-View="51.7916 6.59501 65.6573 17.5403"
+Number=2
+File="lymeshield_system.brd"
+View="-14.0873 -25.5628 71.7652 42.2074"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -381,9 +381,9 @@ Layer=1
 
 [Win_2]
 Type="Schematic Editor"
-Number=2
-File="lyme_shield_system_gen2.sch"
-View="-6.11216 -4.84216 285.304 220.534"
+Number=1
+File="lymeshield_system.sch"
+View="-19.8578 -88.92 399.782 235.622"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -422,8 +422,8 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -6.11216 -4.84216 285.304 220.534"
-Sheet="2"
+Views=" 1: -19.8578 -88.92 399.782 235.622"
+Sheet="1"
 
 [Win_3]
 Type="Control Panel"
