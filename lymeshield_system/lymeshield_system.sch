@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -736,8 +736,7 @@ package type OT</description>
 </packages>
 <packages3d>
 <package3d name="SM04B-SRSS-TB(LFSN)" urn="urn:adsk.eagle:package:30624504/2" type="model" library_version="4">
-<description>&lt;b&gt;SM04B-SRSS-TB(LFSN)&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;SM04B-SRSS-TB(LFSN)&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SM04B-SRSS-TB(LFSN)"/>
 </packageinstances>
@@ -2017,8 +2016,7 @@ Metric Code Size 1005</description>
 </packageinstances>
 </package3d>
 <package3d name="SOIC127P600X175-8N" urn="urn:adsk.eagle:package:32029150/2" type="model" library_version="5">
-<description>&lt;b&gt;8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC]&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC]&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC127P600X175-8N"/>
 </packageinstances>
@@ -2475,8 +2473,7 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 </packageinstances>
 </package3d>
 <package3d name="SOIC127P600X175-8N" urn="urn:adsk.eagle:package:32005199/2" type="model" library_version="4">
-<description>&lt;b&gt;8-SOP (150MIL)&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;8-SOP (150MIL)&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC127P600X175-8N"/>
 </packageinstances>
@@ -2566,24 +2563,6 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 </library>
 <library name="HatchPoint-Samtec" urn="urn:adsk.eagle:library:26439838">
 <packages>
-<package name="HDR-100MIL-1X6-THRU" urn="urn:adsk.eagle:footprint:26586061/1" library_version="2" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="1.016" shape="square"/>
-<pad name="3" x="2.54" y="0" drill="1.016"/>
-<pad name="5" x="10.16" y="0" drill="1.016"/>
-<pad name="6" x="12.7" y="0" drill="1.016"/>
-<pad name="4" x="7.62" y="0" drill="1.016"/>
-<pad name="2" x="5.08" y="0" drill="1.016"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="14.605" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="14.605" y1="-1.27" x2="14.605" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="14.605" y1="1.27" x2="-1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.905" y2="0" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-1.905" y2="0" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.2032" layer="21"/>
-<text x="-1.905" y="3.81" size="1.27" layer="25">&gt;Name</text>
-<text x="-1.905" y="1.905" size="1.27" layer="27">&gt;Value</text>
-</package>
 <package name="HDRV6W64P254_2X3_762X495X838P" urn="urn:adsk.eagle:footprint:32053280/1" library_version="4">
 <description>&lt;b&gt;TSW-103-07-G-D-LL&lt;/b&gt;&lt;br&gt;
 </description>
@@ -2608,13 +2587,30 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <wire x1="6.35" y1="-1.205" x2="6.35" y2="3.745" width="0.2" layer="21"/>
 <wire x1="6.35" y1="3.745" x2="0" y2="3.745" width="0.2" layer="21"/>
 </package>
+<package name="HDR-100MIL-1X6-THRU-RA" urn="urn:adsk.eagle:footprint:33779376/2" locally_modified="yes" library_version="6" library_locally_modified="yes">
+<pad name="1" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="3" x="5.08" y="0" drill="1.016"/>
+<pad name="5" x="10.16" y="0" drill="1.016"/>
+<pad name="6" x="12.7" y="0" drill="1.016"/>
+<pad name="4" x="7.62" y="0" drill="1.016"/>
+<pad name="2" x="2.54" y="0" drill="1.016"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="14.605" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="14.605" y1="-1.27" x2="14.605" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="14.605" y1="1.27" x2="-0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="0" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-1.905" y2="0" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-1.905" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-0.635" y2="1.905" width="0.127" layer="21"/>
+<text x="0.635" y="3.81" size="1.27" layer="25">&gt;Name</text>
+<text x="0.635" y="1.905" size="1.27" layer="27">&gt;Value</text>
+<wire x1="-0.635" y1="1.905" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="HDR-100MIL-1X6-THRU" urn="urn:adsk.eagle:package:26586063/2" type="model" library_version="2" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="HDR-100MIL-1X6-THRU"/>
-</packageinstances>
-</package3d>
 <package3d name="HDRV6W64P254_2X3_762X495X838P" urn="urn:adsk.eagle:package:32053282/2" type="model" library_version="4">
 <description>&lt;b&gt;TSW-103-07-G-D-LL&lt;/b&gt;&lt;br&gt;
 </description>
@@ -2622,27 +2618,13 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <packageinstance name="HDRV6W64P254_2X3_762X495X838P"/>
 </packageinstances>
 </package3d>
+<package3d name="HDR-100MIL-1X6-THRU-RA" urn="urn:adsk.eagle:package:33779377/3" type="model" library_version="6" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="HDR-100MIL-1X6-THRU-RA"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="J1X6" urn="urn:adsk.eagle:symbol:26586062/1" library_version="2" library_locally_modified="yes">
-<wire x1="-6.35" y1="2.3622" x2="-6.35" y2="-15.24" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-15.24" x2="-6.35" y2="-15.24" width="0.4064" layer="94"/>
-<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="3" x="0" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="4" x="0" y="-7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="5" x="0" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="6" x="0" y="-12.7" visible="pad" length="middle" direction="pas" rot="R180"/>
-<circle x="-5.08" y="-10.16" radius="0.635" width="0" layer="94"/>
-<circle x="-5.08" y="-7.62" radius="0.635" width="0" layer="94"/>
-<circle x="-5.08" y="-5.08" radius="0.635" width="0" layer="94"/>
-<circle x="-5.08" y="-2.54" radius="0.635" width="0" layer="94"/>
-<circle x="-5.08" y="0" radius="0.635" width="0" layer="94"/>
-<circle x="-5.08" y="-12.7" radius="0.635" width="0" layer="94"/>
-</symbol>
 <symbol name="J2X3" urn="urn:adsk.eagle:symbol:32053281/1" library_version="3" library_locally_modified="yes">
 <wire x1="8.89" y1="2.3622" x2="8.89" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="6.35" y1="-7.62" x2="6.35" y2="2.54" width="0.4064" layer="94"/>
@@ -2665,31 +2647,27 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <circle x="10.16" y="-2.54" radius="0.635" width="0" layer="94"/>
 <circle x="10.16" y="0" radius="0.635" width="0" layer="94"/>
 </symbol>
+<symbol name="J1X6" urn="urn:adsk.eagle:symbol:26586062/1" library_version="6" library_locally_modified="yes">
+<wire x1="-6.35" y1="2.3622" x2="-6.35" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-6.35" y2="-15.24" width="0.4064" layer="94"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="0" y="-7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="0" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="0" y="-12.7" visible="pad" length="middle" direction="pas" rot="R180"/>
+<circle x="-5.08" y="-10.16" radius="0.635" width="0" layer="94"/>
+<circle x="-5.08" y="-7.62" radius="0.635" width="0" layer="94"/>
+<circle x="-5.08" y="-5.08" radius="0.635" width="0" layer="94"/>
+<circle x="-5.08" y="-2.54" radius="0.635" width="0" layer="94"/>
+<circle x="-5.08" y="0" radius="0.635" width="0" layer="94"/>
+<circle x="-5.08" y="-12.7" radius="0.635" width="0" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="TSW-106-07-G-S" urn="urn:adsk.eagle:component:26586064/2" prefix="J" library_version="3" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="J1X6" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HDR-100MIL-1X6-THRU">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26586063/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TSW-103-07-G-D-LL" urn="urn:adsk.eagle:component:32053283/2" prefix="J" library_version="4">
 <description>&lt;b&gt;CONN HEADER 6 POS .100"&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -2720,6 +2698,29 @@ Source: &lt;a href="http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"&gt;
 <attribute name="MOUSER_PART_NUMBER" value="200-TSW10307GDLL" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Samtec/TSW-103-07-G-D-LL?qs=rU5fayqh%252BE3VkDqz1GA%2F6A%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSW-106-16-L-S-RA" urn="urn:adsk.eagle:component:33779378/2" locally_modified="yes" prefix="J" library_version="6" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="J1X6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HDR-100MIL-1X6-THRU-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33779377/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2909,8 +2910,7 @@ Source: &lt;a href="http://suddendocs.samtec.com/catalog_english/tsw_th.pdf"&gt;
 </packages>
 <packages3d>
 <package3d name="FUSC1608X70N" urn="urn:adsk.eagle:package:24548114/2" type="model" library_version="5">
-<description>&lt;b&gt;MF-FSML125/8-2&lt;/b&gt;&lt;br&gt;
-</description>
+<description>&lt;b&gt;MF-FSML125/8-2&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="FUSC1608X70N"/>
 </packageinstances>
@@ -3123,7 +3123,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/54/bourns_05032019_MF-FSM
 </library>
 <library name="HatchPoint-OPAMPs" urn="urn:adsk.eagle:library:32037742">
 <packages>
-<package name="SOT65P280X145-8N" urn="urn:adsk.eagle:footprint:32037743/1" library_version="1" library_locally_modified="yes">
+<package name="SOT65P280X145-8N" urn="urn:adsk.eagle:footprint:32037743/1" library_version="2">
 <description>&lt;b&gt;DCN (R-PDSO-G8)&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-1.25" y="0.975" dx="1.2" dy="0.45" layer="1"/>
@@ -3153,9 +3153,8 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/54/bourns_05032019_MF-FSM
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT65P280X145-8N" urn="urn:adsk.eagle:package:32037746/2" type="model" library_version="1" library_locally_modified="yes">
-<description>&lt;b&gt;DCN (R-PDSO-G8)&lt;/b&gt;&lt;br&gt;
-</description>
+<package3d name="SOT65P280X145-8N" urn="urn:adsk.eagle:package:32037746/2" type="model" library_version="2">
+<description>&lt;b&gt;DCN (R-PDSO-G8)&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="SOT65P280X145-8N"/>
 </packageinstances>
@@ -3198,7 +3197,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/54/bourns_05032019_MF-FSM
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OPA2349" urn="urn:adsk.eagle:component:32037747/1" locally_modified="yes" prefix="U" library_version="1" library_locally_modified="yes">
+<deviceset name="OPA2349" urn="urn:adsk.eagle:component:32037747/2" prefix="U" library_version="2">
 <description>&lt;b&gt;1uA, Rail-to-Rail, CMOS Operational Amplifiers&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.ti.com/lit/gpn/OPA2349"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3296,9 +3295,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/OPA2349"&gt; Datasheet &lt;/a&gt;<
 </part>
 <part name="C4" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="GCM?*" device="188" package3d_urn="urn:adsk.eagle:package:24240850/4" technology="R71E105KA64D" value="1.00uF"/>
 <part name="C10" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="GCM?*" device="188" package3d_urn="urn:adsk.eagle:package:24240850/4" technology="R71C104KA37J" value="100nF">
-<variant name="A" populate="no"/>
-</part>
-<part name="J1" library="HatchPoint-Samtec" library_urn="urn:adsk.eagle:library:26439838" deviceset="TSW-106-07-G-S" device="" package3d_urn="urn:adsk.eagle:package:26586063/2">
 <variant name="A" populate="no"/>
 </part>
 <part name="GND8" library="HatchPoint-Supplies" library_urn="urn:adsk.eagle:library:8624175" deviceset="DGND" device=""/>
@@ -3418,6 +3414,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/OPA2349"&gt; Datasheet &lt;/a&gt;<
 <part name="FRAME3" library="HatchPoint-Frames" library_urn="urn:adsk.eagle:library:5099271" deviceset="FRAME_A_L_VER2" device="">
 <attribute name="CREATED_DATE_TIME" value=""/>
 </part>
+<part name="J1" library="HatchPoint-Samtec" library_urn="urn:adsk.eagle:library:26439838" deviceset="TSW-106-16-L-S-RA" device="" package3d_urn="urn:adsk.eagle:package:33779377/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -3425,8 +3422,14 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/OPA2349"&gt; Datasheet &lt;/a&gt;<
 <plain>
 <text x="10.16" y="187.96" size="2.54" layer="94">12/02/2021</text>
 <text x="30.48" y="187.96" size="2.54" layer="94">RSL</text>
-<text x="45.72" y="187.96" size="2.54" layer="94">R1,0</text>
+<text x="45.72" y="187.96" size="2.54" layer="94">R1.0</text>
 <text x="60.96" y="187.96" size="2.54" layer="94">First document creation.</text>
+<text x="10.16" y="182.88" size="2.54" layer="94">02/08/2022</text>
+<text x="30.48" y="182.88" size="2.54" layer="94">RSL</text>
+<text x="45.72" y="182.88" size="2.54" layer="94">R1.1</text>
+<text x="60.96" y="185.42" size="2.54" layer="94" align="top-left">- Modify J1 pinout to match PICKit header
+- Correct MTR_FAULT net to !MTR_FAULT
+- Move MTR_CUR_LIMIT to TBC0 pin ()</text>
 </plain>
 <instances>
 <instance part="TBL1" gate="G$1" x="7.62" y="193.04" smashed="yes"/>
@@ -3571,12 +3574,8 @@ leave floating</text>
 <attribute name="VDC" x="147.32" y="33.02" size="1.27" layer="97"/>
 <attribute name="TOL" x="142.24" y="33.02" size="1.27" layer="97"/>
 </instance>
-<instance part="J1" gate="G$1" x="22.86" y="203.2" smashed="yes">
-<attribute name="NAME" x="17.78" y="185.42" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="15.24" y="180.34" size="1.778" layer="96"/>
-</instance>
-<instance part="GND8" gate="G$1" x="27.94" y="187.96" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="35.687" y="187.325" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND8" gate="G$1" x="43.18" y="198.12" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="50.927" y="197.485" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="33.02" y="60.96" smashed="yes">
 <attribute name="VALUE" x="33.02" y="66.04" size="1.778" layer="96" ratio="16" align="bottom-center"/>
@@ -3718,8 +3717,8 @@ leave floating</text>
 <attribute name="VALUE" x="200.66" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="G$1" x="215.9" y="76.2" smashed="yes" rot="MR0"/>
-<instance part="V3" gate="G$1" x="27.94" y="205.74" smashed="yes">
-<attribute name="VALUE" x="27.94" y="208.28" size="1.778" layer="96" align="center"/>
+<instance part="V3" gate="G$1" x="43.18" y="205.74" smashed="yes">
+<attribute name="VALUE" x="43.18" y="208.28" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="158.75" y="3.81" smashed="yes">
@@ -3735,6 +3734,10 @@ leave floating</text>
 <attribute name="SIZE" x="161.29" y="11.43" size="1.905" layer="94"/>
 <attribute name="CONTACT" x="161.29" y="4.445" size="1.27" layer="94"/>
 <attribute name="CREATED_DATE_TIME" x="201.93" y="4.445" size="1.27" layer="94"/>
+</instance>
+<instance part="J1" gate="G$1" x="22.86" y="203.2" smashed="yes">
+<attribute name="NAME" x="12.7" y="187.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="12.7" y="185.42" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3766,10 +3769,10 @@ leave floating</text>
 <junction x="101.6" y="88.9"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="22.86" y1="190.5" x2="27.94" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="190.5" x2="27.94" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="200.66" x2="43.18" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="G$1" pin="DGND"/>
+<wire x1="43.18" y1="200.66" x2="22.86" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -3869,9 +3872,9 @@ leave floating</text>
 </net>
 <net name="UART_TX" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="200.66" x2="27.94" y2="200.66" width="0.1524" layer="91"/>
-<label x="27.94" y="200.66" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="22.86" y1="193.04" x2="27.94" y2="193.04" width="0.1524" layer="91"/>
+<label x="27.94" y="193.04" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PA0(EXTCLK)"/>
@@ -3881,9 +3884,9 @@ leave floating</text>
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="22.86" y1="198.12" x2="27.94" y2="198.12" width="0.1524" layer="91"/>
-<label x="27.94" y="198.12" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="22.86" y1="190.5" x2="27.94" y2="190.5" width="0.1524" layer="91"/>
+<label x="27.94" y="190.5" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PA1"/>
@@ -3893,9 +3896,9 @@ leave floating</text>
 </net>
 <net name="GPIO_PC1" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="22.86" y1="195.58" x2="27.94" y2="195.58" width="0.1524" layer="91"/>
 <label x="27.94" y="195.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PC1"/>
@@ -3905,9 +3908,9 @@ leave floating</text>
 </net>
 <net name="UPDI" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="22.86" y1="193.04" x2="27.94" y2="193.04" width="0.1524" layer="91"/>
-<label x="27.94" y="193.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="22.86" y1="198.12" x2="27.94" y2="198.12" width="0.1524" layer="91"/>
+<label x="27.94" y="198.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="UPDI"/>
@@ -4213,9 +4216,9 @@ leave floating</text>
 </net>
 <net name="MTR_CUR_LIMIT" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="PD2"/>
-<wire x1="124.46" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
-<label x="127" y="121.92" size="1.27" layer="95" xref="yes"/>
+<wire x1="124.46" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
+<label x="127" y="149.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PC0"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
@@ -4282,9 +4285,9 @@ leave floating</text>
 </net>
 <net name="V_BAT" class="2">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="203.2" x2="27.94" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="203.2" x2="43.18" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="V3" gate="G$1" pin="V_BAT"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -4878,7 +4881,7 @@ Protection</text>
 <wire x1="76.2" y1="124.46" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MTR_FAULT" class="0">
+<net name="!MTR_FAULT" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="187.96" x2="76.2" y2="190.5" width="0.1524" layer="91"/>
