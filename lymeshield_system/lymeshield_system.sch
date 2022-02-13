@@ -1322,6 +1322,27 @@ Source: &lt;a href="http://www.keyelco.com/product-pdf.cfm?p=768"&gt; Datasheet 
 <wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.127" layer="39"/>
 <wire x1="1.905" y1="-0.635" x2="-0.47625" y2="-0.635" width="0.127" layer="39"/>
 </package>
+<package name="PCAPC_1206" urn="urn:adsk.eagle:footprint:34044657/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.3048" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-1.905" y2="-1.27" width="0.3048" layer="21"/>
+<wire x1="2.8575" y1="1.27" x2="2.8575" y2="-1.27" width="0.3048" layer="21"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 <package name="CAPC_1206" urn="urn:adsk.eagle:footprint:710554/2" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
@@ -1337,6 +1358,26 @@ chip</description>
 <text x="-1.27" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="PCAPC_1210" urn="urn:adsk.eagle:footprint:34044658/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.8575" y1="1.27" x2="2.8575" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-2.8575" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-2.8575" y1="1.905" x2="-2.8575" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-2.8575" y1="-1.905" x2="-1.905" y2="-1.905" width="0.2032" layer="21"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
@@ -1358,6 +1399,19 @@ chip</description>
 chip</description>
 <packageinstances>
 <packageinstance name="CAPC_1206"/>
+</packageinstances>
+</package3d>
+<package3d name="PCAPC_1210" urn="urn:adsk.eagle:package:34044660/2" type="model" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="PCAPC_1210"/>
+</packageinstances>
+</package3d>
+<package3d name="PCAPC_1206" urn="urn:adsk.eagle:package:34044659/2" type="model" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<packageinstances>
+<packageinstance name="PCAPC_1206"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1515,18 +1569,18 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TAJ?*" urn="urn:adsk.eagle:component:32059455/1" prefix="C" library_version="8">
+<deviceset name="TAJ?*" urn="urn:adsk.eagle:component:32059455/3" prefix="C" library_version="11">
 <gates>
 <gate name="G$1" symbol="C-POL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="C" package="CAPC_1206">
+<device name="C" package="PCAPC_1206">
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27805991/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34044659/2"/>
 </package3dinstances>
 <technologies>
 <technology name="226M010RNJ">
@@ -1537,6 +1591,26 @@ chip</description>
 <attribute name="TOL" value="20%" constant="no"/>
 <attribute name="TYPE" value="Tantalum" constant="no"/>
 <attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VDC" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B" package="PCAPC_1210">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34044660/2"/>
+</package3dinstances>
+<technologies>
+<technology name="226M010RNJ">
+<attribute name="DESCRIPTION" value="Tantalum Capcitor, 2.4Ohm ESR 1210" constant="no"/>
+<attribute name="ESR" value="2.4 Ohm" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX"/>
+<attribute name="PACKAGE" value="1210"/>
+<attribute name="TOL" value="20%" constant="no"/>
+<attribute name="TYPE" value="Tantalum" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
@@ -3283,7 +3357,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/OPA2349"&gt; Datasheet &lt;/a&gt;<
 <part name="C18" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="GCM?*" device="188" package3d_urn="urn:adsk.eagle:package:24240850/4" technology="R72A223KA37D" value="22nF"/>
 <part name="C17" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="GCM?*" device="188" package3d_urn="urn:adsk.eagle:package:24240850/4" technology="5C1H102JA16J" value="1000pF"/>
 <part name="C14" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="GCM?*" device="188" package3d_urn="urn:adsk.eagle:package:24240850/4" technology="R72A103KA37D" value="10nF"/>
-<part name="C12" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="TAJ?*" device="C" package3d_urn="urn:adsk.eagle:package:27805991/2" technology="226M010RNJ" value="22uF"/>
+<part name="C12" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="TAJ?*" device="B" package3d_urn="urn:adsk.eagle:package:34044660/2" technology="226M010RNJ" value="TAJB226M010RNJ">
+<attribute name="TYPE" value="Tantalum"/>
+</part>
 <part name="C21" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="GCM?*" device="188" package3d_urn="urn:adsk.eagle:package:24240850/4" technology="R71E105KA64D" value="1.00uF"/>
 <part name="C20" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="GCM?*" device="188" package3d_urn="urn:adsk.eagle:package:24240850/4" technology="R71E105KA64D" value="1.00uF"/>
 <part name="C13" library="HatchPoint-Capacitors" library_urn="urn:adsk.eagle:library:24125263" deviceset="GCM?*" device="31" package3d_urn="urn:adsk.eagle:package:27805991/2" technology="CR71H225KA55L" value="2.2uF"/>
@@ -4365,7 +4441,6 @@ Protection</text>
 </instance>
 <instance part="C12" gate="G$1" x="139.7" y="190.5" smashed="yes">
 <attribute name="NAME" x="144.78" y="190.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="144.78" y="187.96" size="1.778" layer="96"/>
 <attribute name="PACKAGE" x="144.78" y="185.42" size="1.27" layer="97"/>
 <attribute name="TOL" x="144.78" y="182.88" size="1.27" layer="97"/>
 <attribute name="VDC" x="149.86" y="182.88" size="1.27" layer="97"/>
